@@ -1,6 +1,6 @@
-# Project Name
+# BookMyTrain
 
-Description of the project goes here. This project includes a **backend** developed using **Node.js** and a **frontend** developed using **React**.
+This project, **BookMyTrain**, consists of a **backend** developed using **Node.js** and a **frontend** built with **React**. It provides a platform for booking train tickets, integrating various services for a seamless user experience.
 
 ---
 
@@ -16,36 +16,32 @@ Description of the project goes here. This project includes a **backend** develo
 
 ## Installation
 
-### Prerequisites
+To get started with this project, ensure that you have the following prerequisites installed:
 
-Before you begin, ensure you have the following installed on your local machine:
+### Prerequisites
 
 - **Node.js** (v14.x or above)
 - **npm** (Node Package Manager)
-- **git** (to clone the repository)
+- **Git** (for cloning the repository)
 
-You can verify the installation of Node.js and npm by running:
+You can verify your installation of Node.js and npm by running the following commands:
 
 ```bash
 node -v
 npm -v
 
-
 git clone https://github.com/AbhikarshRaj/BookMyTrain.git
 
 cd BookMyTrain
 
-### Backend Setup (Node.js)
-
+Backend Setup (Node.js)
+Navigate to the backend directory:
 cd backend
+
+Install the necessary dependencies:
 npm install
+
+Start the backend server:
 node server.js
-
-
-### Frontend Setup (React.js)
-
-cd frontend
-npm install
-npm start
-
+This will launch the Node.js backend on the designated port (usually 5000 or another port specified in your configuration).
 
