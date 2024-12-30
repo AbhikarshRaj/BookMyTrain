@@ -35,15 +35,15 @@ npm -v
 
 ## Backend Setup (Node.js)
 
-# Navigate to the backend directory  
+### Navigate to the backend directory  
 1.) cd backend  
 
-# Install the necessary dependencies
+### Install the necessary dependencies
 2.) npm install
 
-# Start the backend server
+### Start the backend server
 3.) node server.js  
-# This will launch the Node.js backend on the designated port (usually 5000 or another port specified in your configuration).
+### This will launch the Node.js backend on the designated port (usually 5000 or another port specified in your configuration).
 
 ## Frontend Setup (React.js)
 
@@ -51,10 +51,10 @@ npm -v
 
 1.) cd frontend  
 
-# Install the necessary dependencies  
+## Install the necessary dependencies  
 2.) npm install  
 
-# Start the backend server  
+## Start the backend server  
 3.) npm start  
 
-# This will launch the react.js frontend on the designated port (usually 3000 or another port specified in your configuration).
+## This will launch the react.js frontend on the designated port (usually 3000 or another port specified in your configuration).
