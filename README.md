@@ -35,14 +35,14 @@ git clone https://github.com/AbhikarshRaj/BookMyTrain.git
 
 cd BookMyTrain
 
-##Backend Setup (Node.js)
+### Backend Setup (Node.js)
+
 cd backend
 npm install
-
 node server.js
 
 
-##Frontend Setup (React.js)
+### Frontend Setup (React.js)
 
 cd frontend
 npm install
