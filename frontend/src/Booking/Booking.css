@@ -1,0 +1,37 @@
+/* Booking.css */
+
+/* General layout for the seat grid */
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Default 7 seats per row */
+  gap: 10px; /* Space between seats */
+}
+
+/* Style for the seats */
+.seat {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for booked seats */
+.seat.booked {
+  background-color: green;
+  cursor: not-allowed;
+}
+
+/* Style for available seats */
+.seat.available {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Last row with only 3 seats */
+.seat-grid.last-row {
+  grid-template-columns: repeat(3, 1fr); /* Last row has 3 seats */
+}
