@@ -26,22 +26,35 @@ To get started with this project, ensure that you have the following prerequisit
 
 You can verify your installation of Node.js and npm by running the following commands:
 
-```bash
 node -v
 npm -v
 
-git clone https://github.com/AbhikarshRaj/BookMyTrain.git
+1.) git clone https://github.com/AbhikarshRaj/BookMyTrain.git
 
-cd BookMyTrain
+2.) cd BookMyTrain
 
-Backend Setup (Node.js)
-Navigate to the backend directory:
-cd backend
+## Backend Setup (Node.js)
 
-Install the necessary dependencies:
-npm install
+# Navigate to the backend directory  
+1.) cd backend  
 
-Start the backend server:
-node server.js
-This will launch the Node.js backend on the designated port (usually 5000 or another port specified in your configuration).
+# Install the necessary dependencies
+2.) npm install
 
+# Start the backend server
+3.) node server.js  
+# This will launch the Node.js backend on the designated port (usually 5000 or another port specified in your configuration).
+
+## Frontend Setup (React.js)
+
+# Navigate to the frontend directory  
+
+1.) cd frontend  
+
+# Install the necessary dependencies  
+2.) npm install  
+
+# Start the backend server  
+3.) npm start  
+
+# This will launch the react.js frontend on the designated port (usually 3000 or another port specified in your configuration).
